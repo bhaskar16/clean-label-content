@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ingredient List Order - How To Read Labels | CleanLabel&deg;</title>
+  <meta
+    name="description"
+    content="Ingredient list order explained with global and India labelling rules, FSSAI source notes, and product reading exercises for spotting split sweeteners."
+  />
+  <link rel="canonical" href="https://cleanlabelwatch.com/ingredient-list-ranked-confession.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="CleanLabel&deg;" />
+  <meta property="og:title" content="Ingredient List Order - How To Read Labels | CleanLabel&deg;" />
+  <meta
+    property="og:description"
+    content="Ingredient list order explained with global and India labelling rules, FSSAI source notes, and product reading exercises for spotting split sweeteners."
+  />
+  <meta property="og:url" content="https://cleanlabelwatch.com/ingredient-list-ranked-confession.html" />
+  <meta property="og:image" content="https://cleanlabelwatch.com/cleanlabel-og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="article:published_time" content="2026-05-09" />
+  <meta property="article:modified_time" content="2026-05-11" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ingredient List Order - How To Read Labels | CleanLabel&deg;" />
+  <meta
+    name="twitter:description"
+    content="Ingredient list order explained with global and India labelling rules, FSSAI source notes, and product reading exercises for spotting split sweeteners."
+  />
+  <meta name="twitter:image" content="https://cleanlabelwatch.com/cleanlabel-og.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <style>
+    :root {
+      --sage: #4a7c59;
+      --sage-light: #e8f0eb;
+      --sage-mid: #a8c5b0;
+      --sage-dark: #2d6b42;
+      --amber: #c8832a;
+      --amber-light: #fdf0e0;
+      --amber-dark: #8a5a1a;
+      --warm-black: #1a1a18;
+      --brown: #7a5c3d;
+      --brown-light: #f2ece4;
+      --brown-dark: #5a3d22;
+      --cream: #faf7f2;
+      --cream-mid: #f0ebe2;
+      --status-clean: #4a7c59;
+      --status-watch: #c8832a;
+      --status-avoid: #c0392b;
+      --font-display: "DM Serif Display", Georgia, "Times New Roman", serif;
+      --font-body: "DM Sans", system-ui, -apple-system, sans-serif;
+      --space-4: 4px;
+      --space-8: 8px;
+      --space-12: 12px;
+      --space-16: 16px;
+      --space-24: 24px;
+      --space-32: 32px;
+      --space-48: 48px;
+      --space-64: 64px;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --radius-pill: 100px;
+      --max-width-content: 680px;
+      --max-width-wide: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--warm-black);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--sage);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.2em;
+    }
+
+    a:focus,
+    button:focus,
+    input:focus {
+      outline: 2px solid var(--sage);
+      outline-offset: 2px;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-24);
+      padding: var(--space-16) var(--space-32);
+      border-bottom: 0.5px solid rgba(74, 124, 89, 0.15);
+      background: rgba(250, 247, 242, 0.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-style: italic;
+      color: var(--sage);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--space-24);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .nav-link {
+      color: #6b7a72;
+      font-size: 13px;
+      text-decoration: none;
+      transition: color 0.12s ease;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--warm-black);
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      border-radius: var(--radius-pill);
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      transition: opacity 0.15s ease, background 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      border: 0;
+      background: var(--sage);
+      color: #fff;
+      padding: 10px 22px;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.88;
+    }
+
+    .btn-secondary {
+      border: 1px solid var(--sage);
+      background: transparent;
+      color: var(--sage);
+      padding: 9px 20px;
+    }
+
+    .btn-secondary:hover {
+      background: var(--sage-light);
+    }
+
+    .hero {
+      padding: var(--space-64) var(--space-24) var(--space-48);
+      border-bottom: 0.5px solid rgba(74, 124, 89, 0.12);
+    }
+
+    .hero-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: var(--space-48);
+      align-items: end;
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-4);
+      padding: 3px 11px;
+      border-radius: var(--radius-pill);
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .tag-category {
+      background: var(--sage-light);
+      color: var(--sage-dark);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .tag-watch {
+      background: var(--amber-light);
+      color: var(--amber-dark);
+    }
+
+    .tag-clean {
+      background: var(--sage-light);
+      color: var(--sage-dark);
+    }
+
+    .tag-avoid {
+      background: #fcebeb;
+      color: #791f1f;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-style: italic;
+      font-weight: 400;
+      color: var(--warm-black);
+    }
+
+    h1 {
+      max-width: 760px;
+      margin-top: var(--space-16);
+      font-size: 48px;
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: var(--space-48) 0 var(--space-16);
+      font-size: 28px;
+      line-height: 1.25;
+    }
+
+    h3 {
+      font-size: 19px;
+      line-height: 1.3;
+    }
+
+    .deck {
+      max-width: 650px;
+      margin: var(--space-16) 0 0;
+      color: #516057;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-12);
+      margin-top: var(--space-24);
+      color: #6b7a72;
+      font-size: 12px;
+    }
+
+    .meta-row span {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-4);
+    }
+
+    .label-visual {
+      background: #fff;
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+
+    .label-visual-header {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-12);
+      padding: var(--space-16);
+      border-bottom: 0.5px solid rgba(74, 124, 89, 0.12);
+      background: var(--sage-light);
+      color: var(--sage-dark);
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .rank-list {
+      margin: 0;
+      padding: var(--space-16);
+      list-style: none;
+    }
+
+    .rank-list li {
+      display: grid;
+      grid-template-columns: 24px minmax(0, 1fr) auto;
+      gap: var(--space-12);
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 0.5px solid rgba(74, 124, 89, 0.12);
+      font-size: 13px;
+    }
+
+    .rank-list li:last-child {
+      border-bottom: 0;
+    }
+
+    .rank-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--cream-mid);
+      color: var(--sage-dark);
+      font-size: 11px;
+      font-weight: 500;
+    }
+
+    .rank-note {
+      color: #6b7a72;
+      font-size: 11px;
+    }
+
+    .content-shell {
+      display: grid;
+      grid-template-columns: minmax(0, var(--max-width-content)) 280px;
+      gap: var(--space-48);
+      align-items: start;
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+      padding: var(--space-48) var(--space-24);
+    }
+
+    article {
+      min-width: 0;
+    }
+
+    article p {
+      margin: 0 0 var(--space-16);
+    }
+
+    .section-label {
+      display: block;
+      margin-bottom: var(--space-8);
+      color: var(--sage);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .verdict-box {
+      margin: var(--space-24) 0 var(--space-32);
+      padding: 14px 18px;
+      border-left: 3px solid var(--sage);
+      border-radius: 0;
+      background: var(--sage-light);
+    }
+
+    .verdict-label {
+      margin-bottom: 5px;
+      color: var(--sage);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .verdict-text {
+      color: var(--sage-dark);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .callout {
+      margin: var(--space-24) 0;
+      padding: var(--space-16) var(--space-24);
+      border-left: 3px solid var(--amber);
+      background: var(--amber-light);
+      color: var(--amber-dark);
+    }
+
+    .callout p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .disclaimer-box {
+      margin: 0 0 var(--space-32);
+      padding: var(--space-16) var(--space-24);
+      border-left: 3px solid var(--sage);
+      background: var(--sage-light);
+      color: var(--sage-dark);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .disclaimer-box p {
+      margin: 0;
+    }
+
+    .rule-table,
+    .example-grid,
+    .source-grid {
+      display: grid;
+      gap: var(--space-12);
+    }
+
+    .rule-table {
+      margin: var(--space-24) 0;
+    }
+
+    .rule-row {
+      display: grid;
+      grid-template-columns: 140px minmax(0, 1fr);
+      gap: var(--space-16);
+      padding: var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .rule-market {
+      color: var(--sage-dark);
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .rule-copy {
+      margin: 0;
+      color: #516057;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .source-note {
+      margin: calc(-1 * var(--space-8)) 0 var(--space-24);
+      color: #6b7a72;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+
+    .evidence-table {
+      display: grid;
+      gap: var(--space-8);
+      margin: var(--space-24) 0;
+    }
+
+    .evidence-row {
+      display: grid;
+      grid-template-columns: 1.1fr 0.8fr 1fr 1fr;
+      gap: var(--space-12);
+      padding: var(--space-12) var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+      color: #516057;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .evidence-row.header {
+      background: var(--sage-light);
+      color: var(--sage-dark);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .evidence-row strong {
+      display: block;
+      color: var(--warm-black);
+      font-weight: 500;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 88px;
+      display: grid;
+      gap: var(--space-16);
+    }
+
+    .side-panel {
+      padding: var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .side-panel h2 {
+      margin: 0 0 var(--space-12);
+      font-size: 18px;
+    }
+
+    .checklist {
+      display: grid;
+      gap: var(--space-12);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .checklist li {
+      display: grid;
+      grid-template-columns: 12px minmax(0, 1fr);
+      gap: var(--space-8);
+      align-items: start;
+      color: #516057;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .status-dot {
+      width: 9px;
+      height: 9px;
+      margin-top: 5px;
+      border-radius: 50%;
+      background: var(--status-watch);
+    }
+
+    .status-dot.clean {
+      background: var(--status-clean);
+    }
+
+    .status-dot.avoid {
+      background: var(--status-avoid);
+    }
+
+    .example-section,
+    .sources-section,
+    .subscribe-section {
+      padding: var(--space-48) var(--space-24);
+      border-top: 0.5px solid rgba(74, 124, 89, 0.12);
+    }
+
+    .section-inner {
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+    }
+
+    .section-intro {
+      max-width: 680px;
+      margin: var(--space-8) 0 var(--space-24);
+      color: #516057;
+      font-size: 15px;
+    }
+
+    .example-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .card {
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+      overflow: hidden;
+      transition: border-color 0.15s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(74, 124, 89, 0.35);
+    }
+
+    .card-band {
+      height: 4px;
+      background: var(--sage);
+    }
+
+    .card-band.watch {
+      background: var(--amber);
+    }
+
+    .card-band.audit {
+      background: #9b4a7a;
+    }
+
+    .card-body {
+      padding: var(--space-16) var(--space-24);
+    }
+
+    .product-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-8);
+      margin-bottom: var(--space-12);
+    }
+
+    .ingredient-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-8);
+      margin: var(--space-16) 0;
+    }
+
+    .ingredient-chip {
+      padding: 5px 9px;
+      border-radius: var(--radius-pill);
+      background: var(--cream-mid);
+      color: #516057;
+      font-size: 11px;
+      line-height: 1;
+    }
+
+    .ingredient-chip.watch {
+      background: var(--amber-light);
+      color: var(--amber-dark);
+    }
+
+    .ingredient-chip.first {
+      background: var(--sage-light);
+      color: var(--sage-dark);
+    }
+
+    .card p {
+      margin: 0;
+      color: #516057;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .read-label {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-4);
+      margin-top: var(--space-16);
+      color: var(--sage);
+      font-size: 12px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .sources-section {
+      background: var(--cream-mid);
+    }
+
+    .source-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: var(--space-24);
+    }
+
+    .source-item {
+      display: grid;
+      grid-template-columns: 24px minmax(0, 1fr);
+      gap: var(--space-12);
+      padding: var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .source-item i {
+      color: var(--sage);
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .source-item strong {
+      display: block;
+      margin-bottom: var(--space-4);
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .source-item a,
+    .source-item span {
+      color: #516057;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .subscribe-section {
+      background: var(--sage-light);
+    }
+
+    .subscribe-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-24);
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+    }
+
+    .subscribe-box h2 {
+      margin: 0 0 var(--space-8);
+      font-size: 26px;
+    }
+
+    .subscribe-box p {
+      max-width: 560px;
+      margin: 0;
+      color: var(--sage-dark);
+      font-size: 14px;
+    }
+
+    .subscribe-form {
+      display: flex;
+      gap: var(--space-8);
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .input-email {
+      width: 220px;
+      padding: 10px 18px;
+      border: 0.5px solid rgba(74, 124, 89, 0.3);
+      border-radius: var(--radius-pill);
+      background: #fff;
+      color: var(--warm-black);
+      font-family: var(--font-body);
+      font-size: 13px;
+    }
+
+    .input-email::placeholder {
+      color: #7f9286;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-24);
+      padding: var(--space-24) var(--space-32);
+      border-top: 0.5px solid rgba(74, 124, 89, 0.15);
+      color: #6b7a72;
+      font-size: 12px;
+    }
+
+    @media (max-width: 920px) {
+      .hero-inner,
+      .content-shell {
+        grid-template-columns: 1fr;
+      }
+
+      .label-visual,
+      .sidebar {
+        position: static;
+      }
+
+      .example-grid,
+      .source-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .subscribe-box {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .nav {
+        padding: var(--space-16) var(--space-24);
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .hero {
+        padding-top: var(--space-48);
+      }
+
+      .rule-row,
+      .evidence-row,
+      .example-grid,
+      .source-grid {
+        grid-template-columns: 1fr;
+      }
+
+      footer {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .subscribe-form {
+        align-items: stretch;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .input-email,
+      .subscribe-form .btn-primary {
+        width: 100%;
+      }
+
+      .rank-list li {
+        grid-template-columns: 24px minmax(0, 1fr);
+      }
+
+      .rank-note {
+        grid-column: 2;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "The ingredient list is a ranked confession. Most people read it backwards.",
+      "description": "Ingredient list order explained with global and India labelling rules, FSSAI source notes, and product reading exercises for spotting split sweeteners.",
+      "author": {
+        "@type": "Organization",
+        "name": "CleanLabel\u00b0",
+        "url": "https://cleanlabelwatch.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CleanLabel\u00b0",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cleanlabelwatch.com/cleanlabel-og.png"
+        }
+      },
+      "datePublished": "2026-05-09",
+      "dateModified": "2026-05-11",
+      "image": "https://cleanlabelwatch.com/cleanlabel-og.png",
+      "mainEntityOfPage": "https://cleanlabelwatch.com/ingredient-list-ranked-confession.html"
+    }
+  </script>
+</head>
+<body>
+  <nav class="nav" aria-label="Primary">
+    <a class="nav-logo" href="/">CleanLabel&deg;</a>
+    <ul class="nav-links">
+      <li><a class="nav-link active" href="#article">Issue</a></li>
+      <li><a class="nav-link" href="#examples">Exercises</a></li>
+      <li><a class="nav-link" href="#sources">Sources</a></li>
+    </ul>
+    <a class="btn-secondary" href="#subscribe">Subscribe &rarr;</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <span class="tag tag-category"><i class="ti ti-scan" aria-hidden="true"></i> Label Literacy</span>
+        <h1>The ingredient list is a ranked confession. Most people read it backwards.</h1>
+        <p class="deck">
+          The back of a cereal box can look honest and still ask for extra work. The first five ingredients tell one story. The full list tells you whether one ingredient family has been split into smaller-looking names.
+        </p>
+        <div class="meta-row" aria-label="Article metadata">
+          <span><i class="ti ti-clock" aria-hidden="true"></i> 7 minute read</span>
+          <span><i class="ti ti-world" aria-hidden="true"></i> Global rules: Codex, US, EU, India, Australia/New Zealand</span>
+          <span><i class="ti ti-database" aria-hidden="true"></i> Updated May 11, 2026</span>
+        </div>
+      </div>
+
+      <aside class="label-visual" aria-label="Example ingredient rank visual">
+        <div class="label-visual-header">
+          <span>Ingredients</span>
+          <span>Descending by weight</span>
+        </div>
+        <ol class="rank-list">
+          <li>
+            <span class="rank-number">1</span>
+            <strong>Whole grain oats</strong>
+            <span class="rank-note">most abundant</span>
+          </li>
+          <li>
+            <span class="rank-number">2</span>
+            <strong>Sugar</strong>
+            <span class="rank-note">sweetener 1</span>
+          </li>
+          <li>
+            <span class="rank-number">3</span>
+            <strong>Oil</strong>
+            <span class="rank-note">texture</span>
+          </li>
+          <li>
+            <span class="rank-number">4</span>
+            <strong>Honey</strong>
+            <span class="rank-note">sweetener 2</span>
+          </li>
+          <li>
+            <span class="rank-number">5</span>
+            <strong>Brown sugar syrup</strong>
+            <span class="rank-note">sweetener 3</span>
+          </li>
+        </ol>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <div class="content-shell" id="article">
+      <article>
+        <section aria-labelledby="hook-heading">
+          <span class="section-label" id="hook-heading">Hook</span>
+          <p>
+            The back of a cereal box can look honest and still ask for extra work. In Codex, US, EU, India, and Australia/New Zealand rules, ingredients are generally listed by weight when they go into the food. First means most. Last means least. The catch is simple: sweetness can show up as sugar, syrup, honey, concentrate, or another name in the same formula.
+          </p>
+        </section>
+
+        <section class="verdict-box" aria-labelledby="verdict-heading">
+          <div class="verdict-label" id="verdict-heading">CleanLabel&deg; Verdict</div>
+          <div class="verdict-text">
+            The first five ingredients tell you what the product mostly is. The full list tells you whether one ingredient family, especially sweeteners, has been split into several smaller-looking names.
+          </div>
+        </section>
+
+        <section class="disclaimer-box" aria-label="CleanLabel disclaimer">
+          <p>
+            This article reports on peer-reviewed scientific research published in named journals. All findings are attributed to their source studies and researchers. CleanLabel&deg; is not a medical publication and does not provide health advice. Nothing in this article constitutes a diagnosis, treatment recommendation, or substitute for consultation with a qualified healthcare professional. If you are experiencing symptoms or have a health concern, speak to a registered doctor or dietitian.
+          </p>
+        </section>
+
+        <section aria-labelledby="science-heading">
+          <span class="section-label" id="science-heading">The Science</span>
+          <p>
+            Ingredient lists are not ranked by health value. They are ranked by weight. Codex CXS 1-1985 says ingredients should be listed from most to least by ingoing weight. US rule 21 CFR 101.4 uses the same basic idea. EU Regulation 1169/2011, India's FSSAI Labelling and Display Regulations, and Australia/New Zealand Standard 1.2.4 use similar weight-order rules, with their own details for small amounts and mixed ingredients.
+          </p>
+          <p>
+            That makes the top of the list useful, but not complete. In the US, ingredients at 2% or less can be grouped after a phrase such as "contains 2% or less of." Once that line appears, the tail is not a precise rank. Codex and FSSAI both give lighter rules for some mixed ingredients under 5% of the finished food, unless additives or other required items need to be named.
+          </p>
+          <p>
+            Sugar is where this gets easy to misread. The FDA's added-sugars definition includes sugars added during processing. It also includes sugars from syrups and honey, plus some sugars from fruit or vegetable juice concentrates. The Institute of Medicine's 1990 report on nutrition labels flagged the same problem from another angle. When simple sugars are split across names, the full sugar picture can be harder to see.
+          </p>
+          <p>
+            Consumer label tests point in the same direction, but they are tests of understanding, not health outcomes. Varela et al. published a 2014 eye-tracking study in <em>Food Research International</em> with 50 people looking at cereal packs. Few read the nutrition label and ingredient list in that task. Khandpur et al. published a 2017 randomized online test in <em>Appetite</em> with 2,509 US adults. Added-sugar meaning was clearer when labels used easier formats, such as grams plus high/medium/low text. In a 2020 randomized online test in the <em>Journal of the Academy of Nutrition and Dietetics</em>, Khandpur et al. studied 1,156 US adults. Readers understood added sugars better on the updated US Nutrition Facts label than on the old one.
+          </p>
+
+          <h2>Evidence Snapshot</h2>
+          <div class="evidence-table" aria-label="Evidence snapshot">
+            <div class="evidence-row header">
+              <span>Source</span>
+              <span>Type</span>
+              <span>What it supports</span>
+              <span>Main limit</span>
+            </div>
+            <div class="evidence-row">
+              <span><strong>Codex CXS 1-1985; 21 CFR 101.4; EU 1169/2011; FSSAI Labelling and Display Regulations; FSANZ 1.2.4</strong></span>
+              <span>Rule text</span>
+              <span>Ingredients are generally listed from most to least by ingoing weight.</span>
+              <span>Details vary by place and product.</span>
+            </div>
+            <div class="evidence-row">
+              <span><strong>Varela et al., 2014, <em>Food Research International</em>, n=50</strong></span>
+              <span>Eye-tracking study</span>
+              <span>Package attention is uneven.</span>
+              <span>Small group; cereal packs only.</span>
+            </div>
+            <div class="evidence-row">
+              <span><strong>Khandpur et al., 2017, <em>Appetite</em>, n=2,509</strong></span>
+              <span>Randomized online test</span>
+              <span>Easier added-sugar labels helped people understand the label.</span>
+              <span>Online task, not a real shop.</span>
+            </div>
+            <div class="evidence-row">
+              <span><strong>Khandpur et al., 2020, <em>Journal of the Academy of Nutrition and Dietetics</em>, n=1,156</strong></span>
+              <span>Randomized online test</span>
+              <span>The updated US label helped people understand added sugars.</span>
+              <span>US adults; not long-term diet data.</span>
+            </div>
+          </div>
+        </section>
+
+        <section aria-labelledby="global-rules-heading">
+          <h2 id="global-rules-heading">The Global Rule, And The Small Print</h2>
+          <div class="rule-table" aria-label="Global ingredient ordering rules">
+            <div class="rule-row">
+              <div class="rule-market">Codex</div>
+              <p class="rule-copy">
+                Ingredients are listed from most to least by ingoing weight. Some mixed ingredients under 5% get lighter sub-ingredient rules.
+              </p>
+            </div>
+            <div class="rule-row">
+              <div class="rule-market">United States</div>
+              <p class="rule-copy">
+                Ingredients are listed by weight. The 2% line can group small amounts, so the tail is small print, not exact rank.
+              </p>
+            </div>
+            <div class="rule-row">
+              <div class="rule-market">European Union</div>
+              <p class="rule-copy">
+                Ingredients are listed by weight at time of use. Annex VII gives the exceptions, including treatment of items under 2%.
+              </p>
+            </div>
+            <div class="rule-row">
+              <div class="rule-market">India</div>
+              <p class="rule-copy">
+                FSSAI requires ingredient names to be listed by descending composition by weight or volume at manufacture. Compound ingredients use bracketed sub-ingredients, with a 5% small-quantity exception.
+              </p>
+            </div>
+            <div class="rule-row">
+              <div class="rule-market">Australia / New Zealand</div>
+              <p class="rule-copy">
+                Standard 1.2.4 sets ingredient-list rules, including weight order and mixed-ingredient rules.
+              </p>
+            </div>
+          </div>
+          <p class="source-note">
+            Sources: Codex CXS 1-1985; 21 CFR 101.4; EU Regulation 1169/2011; FSSAI Labelling and Display Regulations, 2020; FSANZ Standard 1.2.4.
+          </p>
+        </section>
+
+        <section aria-labelledby="catch-heading">
+          <span class="section-label" id="catch-heading">The Catch</span>
+          <p>
+            The ranked list is still one of the best tools on the package. It is not decoration. If sugar, refined flour, or oil appears first, the formula has already said something useful.
+          </p>
+          <p>
+            But a long list is not automatically a health warning. Some additives work at tiny levels. Some products need stabilizers for texture or shelf life. Maltodextrin needs care too. Under US rules, it is a nonsweet starch-based saccharide polymer, not table sugar. In a label-reading exercise, maltodextrin matters most when it sits near glucose syrup, dextrose, fructose, fruit juice concentrate, or other sweetener-family names. The pattern is the point, not one isolated word.
+          </p>
+        </section>
+
+        <section aria-labelledby="action-heading">
+          <span class="section-label" id="action-heading">Practical Monday Action</span>
+          <p>
+            A useful shelf check has three passes. Start with the first five ingredients and name what the food mostly is. Then scan the full list for ingredient families: sugar, sucrose, glucose syrup, corn syrup, dextrose, fructose, maltose, honey, fruit juice concentrate, rice syrup, invert sugar, and syrup names. Last, notice whether the list shifts into a "contains 2% or less" section. The quietest part of the label often explains the loudest claim on the front.
+          </p>
+        </section>
+      </article>
+
+      <aside class="sidebar" aria-label="Reading guide">
+        <div class="side-panel">
+          <h2>Read In This Order</h2>
+          <ul class="checklist">
+            <li><span class="status-dot clean"></span><span><strong>First ingredient:</strong> what the food mostly is.</span></li>
+            <li><span class="status-dot"></span><span><strong>First five:</strong> the real formula center.</span></li>
+            <li><span class="status-dot"></span><span><strong>Sweetener family:</strong> count all aliases together.</span></li>
+            <li><span class="status-dot"></span><span><strong>2% line:</strong> useful small print, weaker ranking.</span></li>
+          </ul>
+        </div>
+        <div class="side-panel">
+          <h2>Sugar Aliases</h2>
+          <div class="ingredient-strip" aria-label="Common sweetener names">
+            <span class="ingredient-chip watch">sugar</span>
+            <span class="ingredient-chip watch">dextrose</span>
+            <span class="ingredient-chip watch">fructose</span>
+            <span class="ingredient-chip watch">corn syrup</span>
+            <span class="ingredient-chip watch">glucose syrup</span>
+            <span class="ingredient-chip watch">honey</span>
+            <span class="ingredient-chip watch">rice syrup</span>
+            <span class="ingredient-chip watch">fruit juice concentrate</span>
+            <span class="ingredient-chip watch">maltodextrin</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="example-section" id="examples" aria-labelledby="examples-heading">
+      <div class="section-inner">
+        <span class="section-label">Reading Exercises</span>
+        <h2 id="examples-heading">Seven Labels That Teach The Trick</h2>
+        <p class="section-intro">
+          These are not product verdicts. They are selected ingredient snapshots from official product pages or SmartLabel listings, checked as of May 2026. Formulas vary by country and can change, so the package in hand is the controlling source.
+        </p>
+
+        <div class="example-grid">
+          <article class="card">
+            <div class="card-band watch"></div>
+            <div class="card-body">
+              <div class="product-meta">
+                <span class="tag tag-watch">Sugar first</span>
+                <span class="tag tag-category">Spread</span>
+              </div>
+              <h3>Nutella Classic</h3>
+              <div class="ingredient-strip">
+                <span class="ingredient-chip watch">sugar</span>
+                <span class="ingredient-chip">palm oil</span>
+                <span class="ingredient-chip first">hazelnuts</span>
+                <span class="ingredient-chip">skim milk</span>
+              </div>
+              <p>
+                "Hazelnut spread" is front-pack identity. The ranked list shows sugar as the largest ingredient by weight.
+              </p>
+              <a class="read-label" href="https://www.nutella.com/us/en/products/nutella">Open label source <i class="ti ti-external-link" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band watch"></div>
+            <div class="card-body">
+              <div class="product-meta">
+                <span class="tag tag-watch">Sweetener family</span>
+                <span class="tag tag-category">Granola bar</span>
+              </div>
+              <h3>Nature Valley Oats 'n Honey</h3>
+              <div class="ingredient-strip">
+                <span class="ingredient-chip first">whole grain oats</span>
+                <span class="ingredient-chip watch">sugar</span>
+                <span class="ingredient-chip watch">honey</span>
+                <span class="ingredient-chip watch">brown sugar syrup</span>
+              </div>
+              <p>
+                Whole grain oats appear first. Sugar, honey, and brown sugar syrup show how one sweetener family can appear under several names.
+              </p>
+              <a class="read-label" href="https://www.naturevalley.com/products/oats-n-honey-crunchy-granola-bars">Open label source <i class="ti ti-external-link" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band"></div>
+            <div class="card-body">
+              <div class="product-meta">
+                <span class="tag tag-clean">Main formula visible</span>
+                <span class="tag tag-category">Yogurt</span>
+              </div>
+              <h3>Yoplait Original Strawberry</h3>
+              <div class="ingredient-strip">
+                <span class="ingredient-chip first">cultured low fat milk</span>
+                <span class="ingredient-chip watch">sugar</span>
+                <span class="ingredient-chip">strawberries</span>
+                <span class="ingredient-chip">1% or less</span>
+              </div>
+              <p>
+                Cultured low fat milk appears first. The "1% or less" line marks where the ranked list becomes less exact.
+              </p>
+              <a class="read-label" href="https://www.yoplait.com/products/original-8-count-strawberry">Open label source <i class="ti ti-external-link" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band watch"></div>
+            <div class="card-body">
+              <div class="product-meta">
+                <span class="tag tag-watch">2% tail</span>
+                <span class="tag tag-category">Cereal</span>
+              </div>
+              <h3>Kellogg's Froot Loops</h3>
+              <div class="ingredient-strip">
+                <span class="ingredient-chip first">corn flour blend</span>
+                <span class="ingredient-chip watch">sugar</span>
+                <span class="ingredient-chip">modified starch</span>
+                <span class="ingredient-chip">2% or less</span>
+              </div>
+              <p>
+                Corn flour blend appears first and sugar appears second. The 2% line is useful small print, not a warning sign by itself.
+              </p>
+              <a class="read-label" href="https://smartlabel.kelloggs.com/Product/Index/038000017919">Open label source <i class="ti ti-external-link" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band watch"></div>
+            <div class="card-body">
+              <div class="product-meta">
+                <span class="tag tag-watch">India example</span>
+                <span class="tag tag-category">Flavoured milk</span>
+              </div>
+              <h3>Amul Kool Kesar</h3>
+              <div class="ingredient-strip">
+                <span class="ingredient-chip first">toned milk</span>
+                <span class="ingredient-chip watch">sugar</span>
+                <span class="ingredient-chip">milk solids</span>
+                <span class="ingredient-chip">colours</span>
+              </div>
+              <p>
+                Toned milk appears first and sugar appears second. The nutrition panel also lists added sugars per 100 mL.
+              </p>
+              <a class="read-label" href="https://www.amul.com/products/amul-kesarflavouredmilk-info.php">Open label source <i class="ti ti-external-link" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band watch"></div>
+            <div class="card-body">
+              <div class="product-meta">
+                <span class="tag tag-watch">India example</span>
+                <span class="tag tag-category">Cereal</span>
+              </div>
+              <h3>Kellogg's Chocos India</h3>
+              <div class="ingredient-strip">
+                <span class="ingredient-chip first">wheat solids</span>
+                <span class="ingredient-chip watch">sugar</span>
+                <span class="ingredient-chip">cocoa solids</span>
+                <span class="ingredient-chip">minerals</span>
+              </div>
+              <p>
+                Wheat solids appear first and sugar appears second. "Wholegrain" or micronutrient claims do not change the ranked ingredient story.
+              </p>
+              <a class="read-label" href="https://www.kelloggs.in/en_IN/products/chocos-whole-grain-cereal.html/">Open label source <i class="ti ti-external-link" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band watch"></div>
+            <div class="card-body">
+              <div class="product-meta">
+                <span class="tag tag-watch">India example</span>
+                <span class="tag tag-category">Chocolate</span>
+              </div>
+              <h3>Amul Milk Chocolate</h3>
+              <div class="ingredient-strip">
+                <span class="ingredient-chip watch">sugar</span>
+                <span class="ingredient-chip">cocoa butter</span>
+                <span class="ingredient-chip">milk solids</span>
+                <span class="ingredient-chip">cocoa solids</span>
+              </div>
+              <p>
+                Sugar appears first, before cocoa butter and milk solids. The first word is the fastest clue.
+              </p>
+              <a class="read-label" href="https://www.amul.com/products/amul-milk-chocolate-info.php">Open label source <i class="ti ti-external-link" aria-hidden="true"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources-section" id="sources" aria-labelledby="sources-heading">
+      <div class="section-inner">
+        <span class="section-label">Receipts</span>
+        <h2 id="sources-heading">Source Notes</h2>
+        <p class="section-intro">
+          This article uses regulatory text for labelling rules, peer-reviewed consumer research for label comprehension, and official product pages for examples. Ingredient lists can change by market and reformulation.
+        </p>
+
+        <div class="source-grid">
+          <div class="source-item">
+            <i class="ti ti-building-bank" aria-hidden="true"></i>
+            <div>
+              <strong>US ingredient order</strong>
+              <a href="https://www.law.cornell.edu/cfr/text/21/101.4">21 CFR 101.4, ingredient declaration and 2% clause</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-building-bank" aria-hidden="true"></i>
+            <div>
+              <strong>EU ingredient order</strong>
+              <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169">Regulation (EU) No 1169/2011, Article 18 and Annex VII</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-building-bank" aria-hidden="true"></i>
+            <div>
+              <strong>Australia/New Zealand ingredient order</strong>
+              <a href="https://www.legislation.gov.au/F2015L00392/latest/text">Food Standards Code, Standard 1.2.4</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-building-bank" aria-hidden="true"></i>
+            <div>
+              <strong>India ingredient order</strong>
+              <a href="https://www.fssai.gov.in/upload/uploadfiles/files/Comp_Labelling%20Display_Version%20VIII_09_09_2025.pdf">FSSAI Labelling and Display Regulations, 2020, Compendium Version VIII</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-world" aria-hidden="true"></i>
+            <div>
+              <strong>Codex baseline</strong>
+              <a href="https://www.fao.org/4/Y2770E/y2770e02.htm">CXS 1-1985, General Standard for Labelling of Prepackaged Foods</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-microscope" aria-hidden="true"></i>
+            <div>
+              <strong>Consumer attention</strong>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/30011706/">Food Research International, 2014 eye-tracking study, n=50</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-microscope" aria-hidden="true"></i>
+            <div>
+              <strong>Added-sugar comprehension</strong>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/28315780/">Appetite, 2017 randomized online experiment, n=2,509</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-microscope" aria-hidden="true"></i>
+            <div>
+              <strong>Updated label comprehension</strong>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/32040398/">Journal of the Academy of Nutrition and Dietetics, 2020 randomized online experiment, n=1,156</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-book" aria-hidden="true"></i>
+            <div>
+              <strong>Sugar-splitting context</strong>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/25144020/">Institute of Medicine, 1990, Nutrition Labeling: Issues and Directions for the 1990s</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-database" aria-hidden="true"></i>
+            <div>
+              <strong>Added sugar definition</strong>
+              <a href="https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label">FDA added sugars on the Nutrition Facts label</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-database" aria-hidden="true"></i>
+            <div>
+              <strong>Maltodextrin nuance</strong>
+              <a href="https://www.law.cornell.edu/cfr/text/21/184.1444">21 CFR 184.1444, maltodextrin identity</a>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-package" aria-hidden="true"></i>
+            <div>
+              <strong>Global product examples</strong>
+              <span>Official product pages: Nutella US, Nature Valley Oats 'n Honey, Yoplait Original Strawberry, and WK Kellogg SmartLabel Froot Loops.</span>
+            </div>
+          </div>
+          <div class="source-item">
+            <i class="ti ti-package" aria-hidden="true"></i>
+            <div>
+              <strong>India product examples</strong>
+              <a href="https://www.amul.com/products/amul-kesarflavouredmilk-info.php">Amul Kool Kesar official product page</a><br />
+              <a href="https://www.kelloggs.in/en_IN/products/chocos-whole-grain-cereal.html/">Kellogg's Chocos India official product page</a><br />
+              <a href="https://www.amul.com/products/amul-milk-chocolate-info.php">Amul Milk Chocolate official product page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources-section" aria-labelledby="disclaimer-heading">
+      <div class="section-inner">
+        <span class="section-label">Disclaimer</span>
+        <h2 id="disclaimer-heading">CleanLabel&deg; Standard Disclaimer</h2>
+        <p class="section-intro">
+          This article reports on peer-reviewed scientific research published in named journals. All findings are attributed to their source studies and researchers. CleanLabel&deg; is not a medical publication and does not provide health advice. Nothing in this article constitutes a diagnosis, treatment recommendation, or substitute for consultation with a qualified healthcare professional. If you are experiencing symptoms or have a health concern, speak to a registered doctor or dietitian.
+        </p>
+      </div>
+    </section>
+
+    <section class="subscribe-section" id="subscribe" aria-labelledby="subscribe-heading">
+      <div class="subscribe-box">
+        <div>
+          <h2 id="subscribe-heading">Read the label like a formula.</h2>
+          <p>
+            CleanLabel&deg; is a weekly field guide to packaged food, ingredient lists, and the gap between what the front says and what the back reveals.
+          </p>
+        </div>
+        <form class="subscribe-form" action="#" method="post">
+          <label class="sr-only" for="email">Email address</label>
+          <input class="input-email" id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
+          <button class="btn-primary" type="submit">Subscribe free &rarr;</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="nav-logo">CleanLabel&deg;</span>
+    <span>Know exactly what you're eating.</span>
+  </footer>
+</body>
+</html>
