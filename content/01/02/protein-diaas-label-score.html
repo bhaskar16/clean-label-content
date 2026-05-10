@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Protein DIAAS Score - Label Claims Explained | CleanLabel&deg;</title>
+  <meta
+    name="description"
+    content="Protein DIAAS score explained: how digestibility, amino acid quality, plant blends, and spiking can change what 25g protein really means. Read the score map."
+  />
+  <link rel="canonical" href="https://cleanlabelwatch.com/protein-diaas-label-score.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="CleanLabel&deg;" />
+  <meta property="og:title" content="Protein DIAAS Score - Label Claims Explained | CleanLabel&deg;" />
+  <meta
+    property="og:description"
+    content="Protein DIAAS score explained: how digestibility, amino acid quality, plant blends, and spiking can change what 25g protein really means. Read the score map."
+  />
+  <meta property="og:url" content="https://cleanlabelwatch.com/protein-diaas-label-score.html" />
+  <meta property="og:image" content="https://cleanlabelwatch.com/cleanlabel-og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="article:published_time" content="2026-05-09" />
+  <meta property="article:modified_time" content="2026-05-11" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Protein DIAAS Score - Label Claims Explained | CleanLabel&deg;" />
+  <meta
+    name="twitter:description"
+    content="Protein DIAAS score explained: how digestibility, amino acid quality, plant blends, and spiking can change what 25g protein really means. Read the score map."
+  />
+  <meta name="twitter:image" content="https://cleanlabelwatch.com/cleanlabel-og.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <style>
+    :root {
+      --sage: #4a7c59;
+      --sage-light: #e8f0eb;
+      --sage-mid: #a8c5b0;
+      --sage-dark: #2d6b42;
+      --amber: #c8832a;
+      --amber-light: #fdf0e0;
+      --amber-dark: #8a5a1a;
+      --warm-black: #1a1a18;
+      --brown: #7a5c3d;
+      --brown-light: #f2ece4;
+      --brown-dark: #5a3d22;
+      --cream: #faf7f2;
+      --cream-mid: #f0ebe2;
+      --status-clean: #4a7c59;
+      --status-watch: #c8832a;
+      --status-avoid: #c0392b;
+      --font-display: "DM Serif Display", Georgia, "Times New Roman", serif;
+      --font-body: "DM Sans", system-ui, -apple-system, sans-serif;
+      --space-4: 4px;
+      --space-8: 8px;
+      --space-12: 12px;
+      --space-16: 16px;
+      --space-24: 24px;
+      --space-32: 32px;
+      --space-48: 48px;
+      --space-64: 64px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --radius-pill: 100px;
+      --max-width-content: 680px;
+      --max-width-wide: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--warm-black);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--sage);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.2em;
+    }
+
+    a:focus,
+    button:focus,
+    input:focus {
+      outline: 2px solid var(--sage);
+      outline-offset: 2px;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-24);
+      padding: var(--space-16) var(--space-32);
+      border-bottom: 0.5px solid rgba(74, 124, 89, 0.15);
+      background: rgba(250, 247, 242, 0.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-style: italic;
+      color: var(--sage);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: var(--space-24);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .nav-link {
+      color: #6b7a72;
+      font-size: 13px;
+      text-decoration: none;
+      transition: color 0.12s ease;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--warm-black);
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      border-radius: var(--radius-pill);
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      transition: opacity 0.15s ease, background 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      border: 0;
+      background: var(--sage);
+      color: #fff;
+      padding: 10px 22px;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.88;
+    }
+
+    .btn-secondary {
+      border: 1px solid var(--sage);
+      background: transparent;
+      color: var(--sage);
+      padding: 9px 20px;
+    }
+
+    .btn-secondary:hover {
+      background: var(--sage-light);
+    }
+
+    .hero {
+      padding: var(--space-64) var(--space-24) var(--space-48);
+      border-bottom: 0.5px solid rgba(74, 124, 89, 0.12);
+    }
+
+    .hero-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: var(--space-48);
+      align-items: end;
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-4);
+      padding: 3px 11px;
+      border-radius: var(--radius-pill);
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .tag-category {
+      background: var(--brown-light);
+      color: var(--brown-dark);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .tag-watch {
+      background: var(--amber-light);
+      color: var(--amber-dark);
+    }
+
+    .tag-clean {
+      background: var(--sage-light);
+      color: var(--sage-dark);
+    }
+
+    .tag-avoid {
+      background: #fcebeb;
+      color: #791f1f;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-style: italic;
+      font-weight: 400;
+      color: var(--warm-black);
+    }
+
+    h1 {
+      max-width: 800px;
+      margin-top: var(--space-16);
+      font-size: 48px;
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: var(--space-48) 0 var(--space-16);
+      font-size: 28px;
+      line-height: 1.25;
+    }
+
+    h3 {
+      font-size: 19px;
+      line-height: 1.3;
+    }
+
+    .deck {
+      max-width: 650px;
+      margin: var(--space-16) 0 0;
+      color: #516057;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-12);
+      margin-top: var(--space-24);
+      color: #6b7a72;
+      font-size: 12px;
+    }
+
+    .meta-row span {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-4);
+    }
+
+    .protein-visual {
+      overflow: hidden;
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .protein-visual-header {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-12);
+      padding: var(--space-16);
+      border-bottom: 0.5px solid rgba(74, 124, 89, 0.12);
+      background: var(--brown-light);
+      color: var(--brown-dark);
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .label-stack {
+      padding: var(--space-16);
+    }
+
+    .label-claim {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-8);
+      margin-bottom: var(--space-16);
+    }
+
+    .claim-cell {
+      min-height: 70px;
+      padding: var(--space-12);
+      border-radius: var(--radius-md);
+      background: var(--cream-mid);
+    }
+
+    .claim-cell strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1;
+    }
+
+    .claim-cell span {
+      color: #6b7a72;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .score-list {
+      display: grid;
+      gap: var(--space-12);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .score-row {
+      display: grid;
+      grid-template-columns: 76px minmax(0, 1fr) 44px;
+      gap: var(--space-8);
+      align-items: center;
+      color: #516057;
+      font-size: 12px;
+    }
+
+    .score-row strong {
+      color: var(--warm-black);
+      font-weight: 500;
+    }
+
+    .score-track {
+      height: 8px;
+      overflow: hidden;
+      border-radius: var(--radius-pill);
+      background: var(--cream-mid);
+    }
+
+    .score-fill {
+      display: block;
+      height: 100%;
+      border-radius: var(--radius-pill);
+      background: var(--sage);
+    }
+
+    .score-fill.watch {
+      background: var(--amber);
+    }
+
+    .score-fill.low {
+      background: var(--status-avoid);
+    }
+
+    .content-shell {
+      display: grid;
+      grid-template-columns: minmax(0, var(--max-width-content)) 280px;
+      gap: var(--space-48);
+      align-items: start;
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+      padding: var(--space-48) var(--space-24);
+    }
+
+    article {
+      min-width: 0;
+    }
+
+    article p {
+      margin: 0 0 var(--space-16);
+    }
+
+    sup a {
+      color: var(--sage-dark);
+      font-size: 11px;
+      text-decoration: none;
+    }
+
+    .section-label {
+      display: block;
+      margin-bottom: var(--space-8);
+      color: var(--sage);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .verdict-box {
+      margin: var(--space-24) 0 var(--space-32);
+      padding: 14px 18px;
+      border-left: 3px solid var(--brown);
+      border-radius: 0;
+      background: var(--brown-light);
+    }
+
+    .verdict-label {
+      margin-bottom: 5px;
+      color: var(--brown);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .verdict-text {
+      color: var(--brown-dark);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .callout {
+      margin: var(--space-24) 0;
+      padding: var(--space-16) var(--space-24);
+      border-left: 3px solid var(--amber);
+      background: var(--amber-light);
+      color: var(--amber-dark);
+    }
+
+    .callout p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .disclaimer-box {
+      margin: 0 0 var(--space-32);
+      padding: var(--space-16) var(--space-24);
+      border-left: 3px solid var(--sage);
+      background: var(--sage-light);
+      color: var(--sage-dark);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .disclaimer-box p {
+      margin: 0;
+    }
+
+    .data-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: var(--space-12);
+      margin: var(--space-24) 0;
+    }
+
+    .data-card {
+      padding: var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .data-card strong {
+      display: block;
+      margin-bottom: var(--space-4);
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1;
+      color: var(--brown-dark);
+    }
+
+    .data-card span {
+      display: block;
+      color: #516057;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .score-table {
+      display: grid;
+      gap: var(--space-12);
+      margin: var(--space-24) 0;
+    }
+
+    .score-card {
+      display: grid;
+      grid-template-columns: 140px minmax(0, 1fr) 56px;
+      gap: var(--space-16);
+      align-items: center;
+      padding: var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .score-source {
+      color: var(--warm-black);
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .score-note {
+      margin: 0;
+      color: #516057;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .score-value {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-style: italic;
+      color: var(--brown-dark);
+      text-align: right;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 88px;
+      display: grid;
+      gap: var(--space-16);
+    }
+
+    .side-panel {
+      padding: var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .side-panel h2 {
+      margin: 0 0 var(--space-12);
+      font-size: 18px;
+    }
+
+    .checklist {
+      display: grid;
+      gap: var(--space-12);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .checklist li {
+      display: grid;
+      grid-template-columns: 12px minmax(0, 1fr);
+      gap: var(--space-8);
+      align-items: start;
+      color: #516057;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .status-dot {
+      width: 9px;
+      height: 9px;
+      margin-top: 5px;
+      border-radius: 50%;
+      background: var(--status-watch);
+    }
+
+    .status-dot.clean {
+      background: var(--status-clean);
+    }
+
+    .status-dot.avoid {
+      background: var(--status-avoid);
+    }
+
+    .ingredient-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-8);
+      margin: var(--space-12) 0 0;
+    }
+
+    .ingredient-chip {
+      padding: 5px 9px;
+      border-radius: var(--radius-pill);
+      background: var(--cream-mid);
+      color: #516057;
+      font-size: 11px;
+      line-height: 1;
+    }
+
+    .ingredient-chip.watch {
+      background: var(--amber-light);
+      color: var(--amber-dark);
+    }
+
+    .ingredient-chip.avoid {
+      background: #fcebeb;
+      color: #791f1f;
+    }
+
+    .comparison-section,
+    .sources-section,
+    .subscribe-section {
+      padding: var(--space-48) var(--space-24);
+      border-top: 0.5px solid rgba(74, 124, 89, 0.12);
+    }
+
+    .section-inner {
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+    }
+
+    .section-intro {
+      max-width: 680px;
+      margin: var(--space-8) 0 var(--space-24);
+      color: #516057;
+      font-size: 15px;
+    }
+
+    .comparison-grid,
+    .source-grid {
+      display: grid;
+      gap: var(--space-12);
+    }
+
+    .comparison-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .card {
+      overflow: hidden;
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+      transition: border-color 0.15s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(74, 124, 89, 0.35);
+    }
+
+    .card-band {
+      height: 4px;
+      background: var(--brown);
+    }
+
+    .card-band.watch {
+      background: var(--amber);
+    }
+
+    .card-band.clean {
+      background: var(--sage);
+    }
+
+    .card-body {
+      padding: var(--space-16) var(--space-24);
+    }
+
+    .card-body p {
+      margin: var(--space-12) 0 0;
+      color: #516057;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .sources-section {
+      background: var(--cream-mid);
+    }
+
+    .source-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: var(--space-24);
+    }
+
+    .source-item {
+      display: grid;
+      grid-template-columns: 24px minmax(0, 1fr);
+      gap: var(--space-12);
+      padding: var(--space-16);
+      border: 0.5px solid rgba(74, 124, 89, 0.15);
+      border-radius: var(--radius-lg);
+      background: #fff;
+    }
+
+    .source-item i {
+      color: var(--sage);
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .source-item strong {
+      display: block;
+      margin-bottom: var(--space-4);
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .source-item a,
+    .source-item span {
+      display: block;
+      color: #516057;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .source-item a + a,
+    .source-item a + span {
+      margin-top: var(--space-4);
+    }
+
+    .subscribe-section {
+      background: var(--sage-light);
+    }
+
+    .subscribe-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-24);
+      width: min(100%, var(--max-width-wide));
+      margin: 0 auto;
+    }
+
+    .subscribe-box h2 {
+      margin: 0 0 var(--space-8);
+      font-size: 26px;
+    }
+
+    .subscribe-box p {
+      max-width: 560px;
+      margin: 0;
+      color: var(--sage-dark);
+      font-size: 14px;
+    }
+
+    .subscribe-form {
+      display: flex;
+      gap: var(--space-8);
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .input-email {
+      width: 220px;
+      padding: 10px 18px;
+      border: 0.5px solid rgba(74, 124, 89, 0.3);
+      border-radius: var(--radius-pill);
+      background: #fff;
+      color: var(--warm-black);
+      font-family: var(--font-body);
+      font-size: 13px;
+    }
+
+    .input-email::placeholder {
+      color: #7f9286;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-24);
+      padding: var(--space-24) var(--space-32);
+      border-top: 0.5px solid rgba(74, 124, 89, 0.15);
+      color: #6b7a72;
+      font-size: 12px;
+    }
+
+    @media (max-width: 920px) {
+      .hero-inner,
+      .content-shell {
+        grid-template-columns: 1fr;
+      }
+
+      .protein-visual,
+      .sidebar {
+        position: static;
+      }
+
+      .comparison-grid,
+      .data-strip,
+      .source-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .subscribe-box {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .nav {
+        padding: var(--space-16) var(--space-24);
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .hero {
+        padding-top: var(--space-48);
+      }
+
+      .score-card,
+      .comparison-grid,
+      .data-strip,
+      .source-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .score-value {
+        text-align: left;
+      }
+
+      footer {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .subscribe-form {
+        align-items: stretch;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .input-email,
+      .subscribe-form .btn-primary {
+        width: 100%;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Protein grams are not the same as protein quality. DIAAS is the score missing from most labels.",
+      "description": "Protein DIAAS score explained: how digestibility, amino acid quality, plant blends, and spiking can change what 25g protein really means. Read the score map.",
+      "author": {
+        "@type": "Organization",
+        "name": "CleanLabel\u00b0",
+        "url": "https://cleanlabelwatch.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CleanLabel\u00b0",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cleanlabelwatch.com/cleanlabel-og.png"
+        }
+      },
+      "datePublished": "2026-05-09",
+      "dateModified": "2026-05-11",
+      "image": "https://cleanlabelwatch.com/cleanlabel-og.png",
+      "mainEntityOfPage": "https://cleanlabelwatch.com/protein-diaas-label-score.html"
+    }
+  </script>
+</head>
+<body>
+  <nav class="nav" aria-label="Primary">
+    <a class="nav-logo" href="/">CleanLabel&deg;</a>
+    <ul class="nav-links">
+      <li><a class="nav-link active" href="#article">Issue</a></li>
+      <li><a class="nav-link" href="#scoreboard">Scores</a></li>
+      <li><a class="nav-link" href="#sources">Sources</a></li>
+    </ul>
+    <a class="btn-secondary" href="#subscribe">Subscribe &rarr;</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <span class="tag tag-category"><i class="ti ti-chart-bar" aria-hidden="true"></i> Macro Science</span>
+        <h1>Protein grams are not the same as protein quality. DIAAS is the score missing from most labels.</h1>
+        <p class="deck">
+          Protein grams tell you what was measured in the food. They do not tell you whether the key amino acids are complete, easy to digest, or strong enough to back the front-of-pack number.
+        </p>
+        <div class="meta-row" aria-label="Article metadata">
+          <span><i class="ti ti-clock" aria-hidden="true"></i> 8 minute read</span>
+          <span><i class="ti ti-world" aria-hidden="true"></i> Global science, India market focus</span>
+          <span><i class="ti ti-database" aria-hidden="true"></i> Updated May 2026</span>
+        </div>
+      </div>
+
+      <aside class="protein-visual" aria-label="Protein score visual">
+        <div class="protein-visual-header">
+          <span>Same label claim</span>
+          <span>Different useful protein</span>
+        </div>
+        <div class="label-stack">
+          <div class="label-claim">
+            <div class="claim-cell"><strong>25g</strong><span>Whey isolate</span></div>
+            <div class="claim-cell"><strong>25g</strong><span>Plant isolate</span></div>
+          </div>
+          <ul class="score-list">
+            <li class="score-row">
+              <strong>Whey</strong>
+              <span class="score-track"><span class="score-fill" style="width: 100%"></span></span>
+              <span>109</span>
+            </li>
+            <li class="score-row">
+              <strong>Soy</strong>
+              <span class="score-track"><span class="score-fill" style="width: 83%"></span></span>
+              <span>90</span>
+            </li>
+            <li class="score-row">
+              <strong>Pea</strong>
+              <span class="score-track"><span class="score-fill watch" style="width: 75%"></span></span>
+              <span>82</span>
+            </li>
+            <li class="score-row">
+              <strong>Lentil</strong>
+              <span class="score-track"><span class="score-fill watch" style="width: 53%"></span></span>
+              <span>54</span>
+            </li>
+            <li class="score-row">
+              <strong>Rice</strong>
+              <span class="score-track"><span class="score-fill watch" style="width: 68%"></span></span>
+              <span>&lt;75</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <div class="content-shell" id="article">
+      <article>
+        <section aria-labelledby="hook-heading">
+          <span class="section-label" id="hook-heading">Hook</span>
+          <p>
+            The scoop looks precise: one serving, 25g protein, a confident number on the front. The back of the pack is quieter. Two tubs can make the same claim and tell a very different label story. That gap is the point. It may tell you the protein source. It usually does not show how much of the key amino acid mix is easy to digest. DIAAS is the missing score.
+          </p>
+        </section>
+
+        <section class="verdict-box" aria-labelledby="verdict-heading">
+          <div class="verdict-label" id="verdict-heading">CleanLabel&deg; Verdict</div>
+          <div class="verdict-text">
+            A protein label is more trustworthy when the gram claim is backed by the protein source, a full amino acid profile, and clear third-party testing. The front-of-pack number is only the start of the story.
+          </div>
+        </section>
+
+        <section class="disclaimer-box" aria-label="CleanLabel disclaimer">
+          <p>
+            This article reports on peer-reviewed scientific research published in named journals. All findings are attributed to their source studies and researchers. CleanLabel&deg; is not a medical publication and does not provide health advice. Nothing in this article constitutes a diagnosis, treatment recommendation, or substitute for consultation with a qualified healthcare professional. If you are experiencing symptoms or have a health concern, speak to a registered doctor or dietitian.
+          </p>
+        </section>
+
+        <section aria-labelledby="science-heading">
+          <span class="section-label" id="science-heading">The Science</span>
+          <p>
+            The older protein score is PDCAAS, short for Protein Digestibility-Corrected Amino Acid Score. It adjusts raw protein for amino acid mix and digestion, but it uses whole-gut digestion and caps scores at 1.0. In 2013, an FAO expert group recommended DIAAS, the Digestible Indispensable Amino Acid Score. DIAAS looks at each essential amino acid at the ileum, the end of the small intestine.<sup><a href="#source-fao">1</a></sup>
+          </p>
+          <p>
+            The difference is not cosmetic, but the evidence needs the right label. A 2017 controlled study in the <em>British Journal of Nutrition</em> used growing pigs, not humans, to compare dairy and plant proteins. Mathai, Liu, and Stein reported that DIAAS split protein sources more clearly than PDCAAS-like scores. PDCAAS can rate some plant proteins too high and hide the top end of high-scoring dairy proteins.<sup><a href="#source-mathai">2</a></sup>
+          </p>
+          <p>
+            The score map below uses published DIAAS examples, not a universal rank for every product. Mathai and colleagues reported young-child-pattern values around 109 for whey protein isolate, 90 for soy protein isolate, and 82 for pea protein concentrate. A 2018 <em>Food Chemistry</em> lentil study reported average DIAAS values of 0.54 for red lentils and 0.49 for green lentils after cooking and processing. These are quality scores, not exact absorption percentages.<sup><a href="#source-mathai">2</a>, <a href="#source-lentil">3</a></sup>
+          </p>
+          <div class="callout">
+            <p>
+              Plant protein is not "bad protein." Many plant proteins are limited by one amino acid: pea is often lower in sulfur amino acids, while rice is often lower in lysine. A blend can make those weak spots less dominant, which is why the source list matters.<sup><a href="#source-mathai">2</a></sup>
+            </p>
+          </div>
+          <p>
+            This is why vegan protein math needs blending, not panic. A pea-rice blend, soy-based product, or mixed meal such as dal with rice can improve the amino acid balance compared with a single isolated plant source. The useful label question is simple: does the product show the amino acid profile, or only the headline grams?
+          </p>
+          <p>
+            India is a useful stress test for this label problem. Protein has moved from gym shelves into daily packaged food: powders, bars, high-protein atta, shakes, yogurts, and dairy upgrades. Grand View Research estimated India's protein supplements market at USD 1.03 billion in 2025 and projected USD 2.71 billion by 2033. Mint reported in February 2026 that whey-cost pressure and import dependence were pushing some Indian companies toward plant-based alternatives.<sup><a href="#source-india-market">4</a></sup>
+          </p>
+          <p>
+            That boom brings a label problem. A 2024 <em>Medicine</em> study by Philips and colleagues tested 36 protein supplements sold in India. The team reported gaps between measured protein and label or ad claims, plus concerns about amino spiking, contaminants, and complex herbal blends. A 2025 <em>Medicine</em> follow-up tested 18 medical whey powders and 16 consumer nutrition whey powders sold in India. The consumer nutrition powders averaged 75.6g protein per 100g, while the medical powders averaged 29.1g per 100g; taurine-based nitrogen spiking was found in 89% of medical products versus 12.5% of consumer nutrition products.<sup><a href="#source-india-study">5</a></sup>
+          </p>
+          <div class="data-strip" aria-label="India protein supplement label data">
+            <div class="data-card">
+              <strong>USD 1.03B</strong>
+              <span>Estimated India protein supplement market size in 2025; projected at USD 2.71B by 2033.</span>
+            </div>
+            <div class="data-card">
+              <strong>36 + 34</strong>
+              <span>Protein supplements tested in 2024, then 34 whey powders in 2025: 18 medical and 16 consumer nutrition.</span>
+            </div>
+            <div class="data-card">
+              <strong>75.6 vs 29.1</strong>
+              <span>Average protein grams per 100g in 2025 consumer nutrition versus medical whey powders.</span>
+            </div>
+            <div class="data-card">
+              <strong>89%</strong>
+              <span>Medical powders with taurine-based nitrogen spiking, versus 12.5% of consumer nutrition powders.</span>
+            </div>
+          </div>
+          <p>
+            Protein spiking is possible because common protein tests measure nitrogen. US labelling law allows protein grams to be calculated as 6.25 times nitrogen content, and FDA protein % Daily Value still uses a corrected protein amount rather than DIAAS. Kjeldahl and Dumas methods are useful nitrogen tests. On their own, they cannot tell intact whey or pea protein from added nitrogen-rich compounds such as taurine, glycine, creatine, urea, or other non-protein nitrogen sources. That is how a label can look strong while the amino acid profile stays thin.<sup><a href="#source-fda">6</a></sup>
+          </p>
+        </section>
+
+        <section aria-labelledby="catch-heading">
+          <span class="section-label" id="catch-heading">The Catch</span>
+          <p>
+            DIAAS is not perfect. Many values come from pig or rat models because human ileal testing is hard to do. Scores change with heat, extrusion, isolation, fermentation, and the whole food matrix. A lentil dal, a lentil flour snack, and a lentil protein isolate are not the same biological product. Current reviews treat DIAAS as a better tool than PDCAAS, not a flawless consumer label.<sup><a href="#source-fao">1</a></sup>
+          </p>
+          <p>
+            Lower DIAAS does not mean "bad food." Lentils bring fibre, minerals, polyphenols, and slow-digesting carbohydrate. The nutrition value of a mixed meal is not erased by a lower protein-quality score. The problem starts when a packaged product sells 25g protein as if every source, blend, and nitrogen count were equivalent.
+          </p>
+        </section>
+
+        <section aria-labelledby="action-heading">
+          <span class="section-label" id="action-heading">Practical Monday Action</span>
+          <p>
+            A useful label routine has three steps. Start with the protein source: whey isolate, whey concentrate, soy isolate, pea, rice, lentil, or blend. Then look for a full amino acid profile, especially leucine, lysine, methionine plus cysteine, threonine, tryptophan, and valine. Finally, read the ingredient list for taurine, glycine, creatine, glutamine, or a "proprietary amino blend" sitting beside the protein source. The front says grams. The back shows whether the grams have evidence behind them.
+          </p>
+        </section>
+      </article>
+
+      <aside class="sidebar" aria-label="Reading guide">
+        <div class="side-panel">
+          <h2>Label Signals</h2>
+          <ul class="checklist">
+            <li><span class="status-dot clean"></span><span><strong>Clearer signal:</strong> whey isolate, milk protein, or another named source plus a full amino profile.</span></li>
+            <li><span class="status-dot clean"></span><span><strong>Strong plant signal:</strong> soy isolate or a deliberately blended plant profile.</span></li>
+            <li><span class="status-dot"></span><span><strong>Needs context:</strong> pea, rice, lentil, wheat, and many single-source plant powders.</span></li>
+            <li><span class="status-dot"></span><span><strong>Watch closely:</strong> headline protein plus proprietary amino blend.</span></li>
+          </ul>
+        </div>
+        <div class="side-panel">
+          <h2>Spiking Clues</h2>
+          <div class="ingredient-strip" aria-label="Protein spiking watch list">
+            <span class="ingredient-chip watch">taurine</span>
+            <span class="ingredient-chip watch">glycine</span>
+            <span class="ingredient-chip watch">creatine</span>
+            <span class="ingredient-chip watch">glutamine</span>
+            <span class="ingredient-chip avoid">proprietary blend</span>
+            <span class="ingredient-chip">full aminogram</span>
+          </div>
+        </div>
+        <div class="side-panel">
+          <h2>India Check</h2>
+          <ul class="checklist">
+            <li><span class="status-dot"></span><span><strong>Whey price pressure:</strong> cheaper blends are not automatically bad, but they need disclosure.</span></li>
+            <li><span class="status-dot"></span><span><strong>Medical powders:</strong> sugar, amino profile, and protein per 100g deserve a closer read.</span></li>
+            <li><span class="status-dot clean"></span><span><strong>Better signal:</strong> batch testing and amino acid profile published by product.</span></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <section class="comparison-section" id="scoreboard" aria-labelledby="scoreboard-heading">
+      <div class="section-inner">
+        <span class="section-label">Scoreboard</span>
+        <h2 id="scoreboard-heading">What 25g Can Mean In Practice</h2>
+        <p class="section-intro">
+          DIAAS values vary by study, age scoring pattern, processing, and formulation. Use this as a reading map, not a universal ranking tattooed onto every product.
+        </p>
+
+        <div class="score-table" aria-label="Approximate DIAAS score examples">
+          <div class="score-card">
+            <div class="score-source">Whey protein isolate</div>
+            <p class="score-note">High digestibility and amino acid density. PDCAAS caps the distinction; DIAAS preserves it.</p>
+            <div class="score-value">109</div>
+          </div>
+          <div class="score-card">
+            <div class="score-source">Soy protein isolate</div>
+            <p class="score-note">One of the strongest plant isolates, often limited by sulfur amino acids.</p>
+            <div class="score-value">90</div>
+          </div>
+          <div class="score-card">
+            <div class="score-source">Pea protein concentrate</div>
+            <p class="score-note">Useful, especially in blends. Lower score alone does not make it poor food.</p>
+            <div class="score-value">82</div>
+          </div>
+          <div class="score-card">
+            <div class="score-source">Red lentils</div>
+            <p class="score-note">Whole-food score depends on processing; lentils still bring fibre and micronutrients.</p>
+            <div class="score-value">54</div>
+          </div>
+          <div class="score-card">
+            <div class="score-source">Rice protein concentrate</div>
+            <p class="score-note">Often lysine-limited. The score is more meaningful when read beside the full amino acid profile.</p>
+            <div class="score-value">&lt;75</div>
+          </div>
+        </div>
+
+        <div class="comparison-grid">
+          <article class="card">
+            <div class="card-band clean"></div>
+            <div class="card-body">
+              <span class="tag tag-clean">Better label</span>
+              <h3>Full amino acid profile</h3>
+              <p>
+                The most useful labels publish leucine, lysine, methionine plus cysteine, threonine, tryptophan, and valine. Transparency beats slogans.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band watch"></div>
+            <div class="card-body">
+              <span class="tag tag-watch">Plant reality</span>
+              <h3>Blend on purpose</h3>
+              <p>
+                Pea plus rice, soy-based formulas, or mixed meals can improve amino acid balance without turning this into an anti-vegan argument.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-band"></div>
+            <div class="card-body">
+              <span class="tag tag-category">India</span>
+              <h3>Boom plus pressure</h3>
+              <p>
+                Fast growth, high whey costs, and new mainstream protein formats make source disclosure more important, not less.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources-section" id="sources" aria-labelledby="sources-heading">
+      <div class="section-inner">
+        <span class="section-label">Receipts</span>
+        <h2 id="sources-heading">Source Notes</h2>
+        <p class="section-intro">
+          DIAAS values are not a single permanent number for a food. Processing, scoring pattern, and study model matter. The values here are used to explain the label literacy problem, not to rank every product on the shelf.
+        </p>
+
+        <div class="source-grid">
+          <div class="source-item" id="source-fao">
+            <i class="ti ti-building-bank" aria-hidden="true"></i>
+            <div>
+              <strong>1. DIAAS method and limitations</strong>
+              <a href="https://openknowledge.fao.org/handle/20.500.14283/i3124e">FAO, <em>Dietary Protein Quality Evaluation in Human Nutrition</em>, Food and Nutrition Paper 92, 2013</a>
+              <a href="https://www.ovid.com/journals/nutbu/pdf/10.1111/nbu.12063~the-2013-fao-report-on-dietary-protein-quality-evaluation-in">Leser, <em>Nutrition Bulletin</em>, 2013, summary of FAO recommendations</a>
+              <a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2024.1389719/full">Moughan &amp; Lim, <em>Frontiers in Nutrition</em>, 2024, DIAAS 10 years on</a>
+            </div>
+          </div>
+          <div class="source-item" id="source-mathai">
+            <i class="ti ti-microscope" aria-hidden="true"></i>
+            <div>
+              <strong>2. Dairy and plant DIAAS comparison</strong>
+              <a href="https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/values-for-digestible-indispensable-amino-acid-scores-diaas-for-some-dairy-and-plant-proteins-may-better-describe-protein-quality-than-values-calculated-using-the-concept-for-protein-digestibilitycorrected-amino-acid-scores-pdcaas/E7AE34F8A5BCEA5A9FBFBC72E72B93DF">Mathai, Liu &amp; Stein, <em>British Journal of Nutrition</em>, 2017, controlled pig model, DOI 10.1017/S0007114517000125</a>
+              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7590266/">Herreman et al., <em>Food Science &amp; Nutrition</em>, 2020, overview of plant and animal DIAAS values</a>
+            </div>
+          </div>
+          <div class="source-item" id="source-lentil">
+            <i class="ti ti-microscope" aria-hidden="true"></i>
+            <div>
+              <strong>3. Lentil protein quality</strong>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/28946315/">Nosworthy et al., <em>Food Chemistry</em>, 2018, red and green lentil processing study</a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0308814617312839">ScienceDirect abstract with DIAAS values for red and green lentils</a>
+            </div>
+          </div>
+          <div class="source-item" id="source-india-market">
+            <i class="ti ti-chart-bar" aria-hidden="true"></i>
+            <div>
+              <strong>4. India protein boom</strong>
+              <a href="https://www.grandviewresearch.com/horizon/outlook/protein-supplements-market/india">Grand View Research Horizon, India protein supplements market outlook, 2025-2033</a>
+              <a href="https://www.livemint.com/companies/whey-protein-supplements-costs-fmcg-nutraceuticals-plants-imports-india-whey-protein-market-11772046944711.html">Mint, February 2026, whey costs and Indian protein companies shifting toward plant sources</a>
+            </div>
+          </div>
+          <div class="source-item" id="source-india-study">
+            <i class="ti ti-shield-check" aria-hidden="true"></i>
+            <div>
+              <strong>5. Indian protein supplement testing</strong>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/38579036/">Philips et al., <em>Medicine</em>, 2024, Citizens Protein Project, 36 Indian protein supplements</a>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/41239695/">Philips et al., <em>Medicine</em>, 2025, Citizens Protein Project 2, 34 Indian whey powders</a>
+            </div>
+          </div>
+          <div class="source-item" id="source-fda">
+            <i class="ti ti-database" aria-hidden="true"></i>
+            <div>
+              <strong>6. Label math and nitrogen testing</strong>
+              <a href="https://www.law.cornell.edu/cfr/text/21/101.9">21 CFR 101.9(c)(7), US protein labelling and 6.25 times nitrogen calculation</a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0308814613008236">Mendonca et al., <em>Food Chemistry</em>, 2013, Kjeldahl methods and nitrogen-rich adulterants</a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0958694616303582">International Dairy Journal, 2017, non-protein nitrogen screening for milk powder adulteration</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources-section" aria-labelledby="disclaimer-heading">
+      <div class="section-inner">
+        <span class="section-label">Disclaimer</span>
+        <h2 id="disclaimer-heading">CleanLabel&deg; Standard Disclaimer</h2>
+        <p class="section-intro">
+          This article reports on peer-reviewed scientific research published in named journals. All findings are attributed to their source studies and researchers. CleanLabel&deg; is not a medical publication and does not provide health advice. Nothing in this article constitutes a diagnosis, treatment recommendation, or substitute for consultation with a qualified healthcare professional. If you are experiencing symptoms or have a health concern, speak to a registered doctor or dietitian.
+        </p>
+      </div>
+    </section>
+
+    <section class="subscribe-section" id="subscribe" aria-labelledby="subscribe-heading">
+      <div class="subscribe-box">
+        <div>
+          <h2 id="subscribe-heading">Protein grams are the start, not the answer.</h2>
+          <p>
+            CleanLabel&deg; is a weekly field guide to packaged food, ingredient lists, and the gap between what the front says and what the back reveals.
+          </p>
+        </div>
+        <form class="subscribe-form" action="#" method="post">
+          <label class="sr-only" for="email">Email address</label>
+          <input class="input-email" id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
+          <button class="btn-primary" type="submit">Subscribe free &rarr;</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="nav-logo">CleanLabel&deg;</span>
+    <span>Know exactly what you're eating.</span>
+  </footer>
+</body>
+</html>
