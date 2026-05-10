@@ -1,0 +1,4 @@
+interface:
+  display_name: "CleanLabel Review Skill"
+  short_description: "Newsletter researcher review"
+  default_prompt: "Review the article generated"

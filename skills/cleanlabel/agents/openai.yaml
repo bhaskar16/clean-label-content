@@ -1,0 +1,4 @@
+interface:
+  display_name: "CleanLabel Writing Skill"
+  short_description: "Newsletter researcher"
+  default_prompt: "Take this input of article name and research and generate a full newsletter of 600-700 words"
